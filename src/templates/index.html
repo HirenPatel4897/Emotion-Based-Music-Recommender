@@ -1,0 +1,16 @@
+<!-- src/templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Emotion-based Music Recommender</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Enter Your Text</h1>
+    <form action="/" method="post">
+        <input type="text" name="text_input" placeholder="How do you feel today?">
+        <button type="submit">Get Recommendations</button>
+    </form>
+</body>
+</html>

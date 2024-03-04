@@ -1,0 +1,2 @@
+emotion_detection_model/model.safetensors filter=lfs diff=lfs merge=lfs -text
+C:/Users/14704/OneDrive/Desktop/DatascienceProjects/EmotionBasedMusicRecommender/emotion_detection_model filter=lfs diff=lfs merge=lfs -text
